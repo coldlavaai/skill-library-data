@@ -8,17 +8,19 @@ This repository contains all packaged skills for the agent fleet. Used by:
 
 ## Structure
 
-```
+\`\`\`
 skill-name/
 ├── SKILL.md          # Main instructions
 ├── scripts/          # Automation scripts
 ├── references/       # Reference docs
 ├── templates/        # Output templates
 └── README.md         # Description
-```
+\`\`\`
 
 ## Sync
 
 Auto-synced every time a skill is added or modified. Do not edit this repo directly — changes will be overwritten.
 
-Edit skills in `/home/moltbot/skill-library/` on the fleet server.
+Edit skills in \`/home/moltbot/skill-library/\` on the fleet server.
+
+**Last sync:** $(date -u +"%Y-%m-%d %H:%M UTC")
